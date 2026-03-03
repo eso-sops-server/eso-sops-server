@@ -9,7 +9,7 @@ on:
   pull_request:
 env:
   CHARTPATH: ./helm/eso-sops-server
-  CHART_NAME: eso-sops-server
+  CHART_NAME: eso-sops-server-chart
   IMAGE_TAG: 0.1.0
 jobs:
   job:
