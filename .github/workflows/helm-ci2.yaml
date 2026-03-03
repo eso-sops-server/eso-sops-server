@@ -1,4 +1,4 @@
-name: ci-helm-ghcr
+name: ci2-helm-ghcr
 permissions:
   packages: write
   contents: read
