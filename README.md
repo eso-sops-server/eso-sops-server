@@ -30,6 +30,6 @@ Basic tasks after cloning:
 	make docker-build
 	```
 
-CI: a GitHub Actions workflow is included at `.github/workflows/ci.yml` that runs tests and builds a Linux binary artifact.
+CI: a GitHub Actions workflow is included at `.github/workflows/docker_push.yml builds a Docker binary artifact.
 
 This repository contains a minimal HTTP server under `cmd/server` and a health endpoint at `/healthz`.
