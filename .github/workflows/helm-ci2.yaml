@@ -8,8 +8,8 @@ on:
       - main
   pull_request:
 env:
-  CHARTPATH: ./helm/eso-sops-chart
-  CHART_NAME: eso-sops-chart
+  CHARTPATH: ./helm/eso-sample
+  CHART_NAME: eso-sample
   IMAGE_TAG: 0.1.0
 jobs:
   job:
